@@ -1,49 +1,42 @@
-# Python
+# 🔹 Virtual Environment
+proenv/
+env/
+venv/
+
+
+# 🔹 Python cache files
 __pycache__/
 *.pyc
 *.pyo
 *.pyd
-*.pyc.*
-*.egg-info/
-dist/
-build/
 
-# Virtual Environment (IMPORTANT 🚨)
-proenv/
-venv/
-env/
 
-# Jupyter Notebook checkpoints
+# 🔹 Jupyter Notebook
 .ipynb_checkpoints/
 
-# DVC
-.dvc/
-.dvcignore
 
-# Logs
+# folder
+# data/
+
+
+# 🔹 Logs
 *.log
 
-# OS files
+
+# 🔹 OS files
 .DS_Store
 Thumbs.db
 
-# VS Code
+
+# 🔹 VS Code settings
 .vscode/
 
-# Large ML / Model files
-*.h5
-*.pt
-*.pth
-*.ckpt
 
-# TensorFlow / compiled binaries
-*.dll
-*.pyd
+# 🔹 Temporary files
+*.tmp
+*.temp
 
-# Dataset files (optional)
-data/
-artifacts/
 
-# Secrets
-.env
-.proenv
+# 🔹 Database files (if any)
+*.db
+*.sqlite3
