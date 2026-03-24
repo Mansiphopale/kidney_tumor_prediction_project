@@ -1,0 +1,49 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pyc.*
+*.egg-info/
+dist/
+build/
+
+# Virtual Environment (IMPORTANT 🚨)
+proenv/
+venv/
+env/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# DVC
+.dvc/
+.dvcignore
+
+# Logs
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# VS Code
+.vscode/
+
+# Large ML / Model files
+*.h5
+*.pt
+*.pth
+*.ckpt
+
+# TensorFlow / compiled binaries
+*.dll
+*.pyd
+
+# Dataset files (optional)
+data/
+artifacts/
+
+# Secrets
+.env
+.proenv
