@@ -20,6 +20,9 @@ class PredictionPipeline:
     def predict(self):
         # load model
         model = load_model(r"E:\projects\DL_kidney_tumor_pred\kidney_tumor_prediction_project\artifacts\training\model.keras")
+        # insted of upper line paste this below lines 
+        # model_path = os.path.join("model",, "model.keras")
+        # model = load_model(model_path)
 
 
         imagename = self.filename
